@@ -1,0 +1,116 @@
+.image-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 75%; /* 4:3 aspect ratio */
+}
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.login-signup {
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+}
+.login-signup .btn + .btn {
+  margin-left: 10px; /* Ensures no margin between buttons */
+}
+.action-button {
+  margin-right: 5px; /* Adjust this value to decrease/increase the space */
+}
+.action-button:last-child {
+  margin-right: 0; /* Ensure there's no margin on the last button */
+}
+.quantity-control {
+  display: inline-flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.quantity-btn {
+  color: #fff; /* White text color */
+  background-color: #000; /* Black background */
+  border-color: #000; /* Black border */
+  padding: 0.375rem 0.75rem; /* Adjust padding as needed */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.quantity-btn:hover {
+  background-color: #333; /* Darker background on hover */
+}
+
+.quantity-btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25); /* Focus state shadow */
+}
+
+.quantity-btn.border {
+  border-width: 2px; /* Add border width for the '1' button */
+}
+.table tfoot .text-center {
+  text-align: center !important;
+}
+
+.table tbody td {
+  vertical-align: middle;
+}
+.msg {
+  background: #fefefe;
+  color: #666666;
+  font-weight: bold;
+  font-size: small;
+  padding: 12px;
+  padding-left: 16px;
+  border-top: solid 3px #CCCCCC;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 10px 10px -5px rgba(0,0,0,.08);
+     -moz-box-shadow: 0 10px 10px -5px rgba(0,0,0,.08);
+          box-shadow: 0 10px 10px -5px rgba(0,0,0,.08);
+}
+.msg-clear {
+  border-color: #fefefe;
+  -webkit-box-shadow: 0 7px 10px -5px rgba(0,0,0,.15);
+     -moz-box-shadow: 0 7px 10px -5px rgba(0,0,0,.15);
+          box-shadow: 0 7px 10px -5px rgba(0,0,0,.15);
+}
+.msg-info {
+  border-color: #b8dbf2;
+}
+.msg-success {
+  border-color: #cef2b8;
+}
+.msg-warning {
+  border-color: rgba(255,165,0,.5);
+}
+.msg-danger {
+  border-color: #ec8282;
+}
+.msg-primary {
+  border-color: #9ca6f1;
+}
+.msg-magick {
+  border-color: #e0b8f2;
+}
+.msg-info-text {
+  color: #39b3d7;
+}
+.msg-success-text {
+  color: #80d651;
+}
+.msg-warning-text {
+  color: #db9e34;
+}
+.msg-danger-text {
+  color: #c9302c;
+}
+.msg-primary-text {
+  color: rgba(47,106,215,.9);
+}
+.msg-magick-text {
+  color: #bb39d7;
+}

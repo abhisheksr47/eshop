@@ -1,0 +1,227 @@
+<section class="cart-section">
+  <div class="container">
+    <h1 class="cart-title">Your Cart</h1>
+
+    <div class="cart-table">
+      <div class="cart-header">
+        <div class="cart-row">
+          <div class="cart-cell">Item</div>
+          <div class="cart-cell"></div>
+          <div class="cart-cell">Price</div>
+          <div class="cart-cell">Quantity</div>
+          <div class="cart-cell">Sub Total</div>
+          <div class="cart-cell"></div>
+        </div>
+      </div>
+      <div class="cart-body">
+        {{#each cartProducts}}
+        <div class="cart-row" id="row_{{this.item}}">
+          <div class="cart-cell item-cell">
+            <img style="width:30px; height:auto;" src="../images/product-images/{{this.CartItems._id}}.jpg" alt="{{this.CartItems.pname}}">
+            <span>{{this.CartItems.pname}}</span>
+          </div>
+          <div class="cart-cell">₹{{this.CartItems.price}}</div>
+          <div class="cart-cell">
+            <div class="quantity-control">
+              <button class="quantity-btn" onclick="changeQuantity('{{this._id}}','{{this.item}}','{{../user._id}}',-1)">-</button>
+              <span id="{{this.item}}" class="quantity-display">{{this.quantity}}</span>
+              <button class="quantity-btn" onclick="changeQuantity('{{this._id}}','{{this.item}}','{{../user._id}}',1)">+</button>
+            </div>
+          </div>
+          <div class="cart-cell" id="subtotal_{{this.item}}">₹{{this.total}}</div>
+          <div class="cart-cell">
+            <button class="btn-remove" onclick="removeProduct('{{this._id}}','{{this.item}}','{{../user._id}}')">Remove</button>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+      <div class="cart-footer">
+        <div class="cart-row">
+          <div class="cart-cell"></div>
+          <div class="cart-cell"></div>
+          <div class="cart-cell">Total Price:</div>
+          <div class="cart-cell" id="totalPrice"><strong>₹ {{totalcartamount}}</strong></div>
+          <div class="cart-cell"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart-actions">
+      <a href='/' class="btn btn-secondary">Continue Shopping</a>
+      <a href='/checkout' class="btn btn-primary">Place Order</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .cart-section {
+    padding: 3rem 0;
+    background-color: #f8f9fa;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .cart-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .cart-table {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+
+  .cart-row {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .cart-cell {
+    flex: 1;
+    padding: 0.5rem;
+  }
+
+  .cart-header {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #495057;
+  }
+
+  .item-cell {
+    display: flex;
+    align-items: center;
+    flex: 2;
+  }
+
+  .item-cell img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 2px;
+    margin-right: 1rem;
+  }
+
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    width: 120px;
+  }
+
+  .quantity-btn {
+    background-color: #e9ecef;
+    border: none;
+    color: #495057;
+    font-size: 1.2rem;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .quantity-btn:hover {
+    background-color: #dee2e6;
+  }
+
+  .quantity-display {
+    padding: 0 0px;
+    font-weight: 600;
+    margin: auto;
+  }
+
+  .btn-remove {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-remove:hover {
+    background-color: #c82333;
+  }
+
+  .cart-footer {
+    background-color: #f8f9fa;
+    font-weight: 600;
+  }
+
+  .cart-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+  @media (max-width: 768px) {
+    .cart-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .cart-cell {
+      width: 100%;
+      padding: 0.5rem 0;
+    }
+
+    .item-cell {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .item-cell img {
+      margin-bottom: 0.5rem;
+    }
+
+    .cart-actions {
+      flex-direction: column;
+    }
+
+    .btn {
+      width: 100%;
+    }
+  }
+</style>

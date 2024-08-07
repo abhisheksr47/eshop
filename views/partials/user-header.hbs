@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EShop - Modern E-commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/path/to/eshop-styles.css">
+</head>
+
+<body class="eshop-body">
+    <header class="eshop-header">
+        <nav class="eshop-nav navbar navbar-expand-lg">
+            <div class="container">
+                <a class="eshop-brand navbar-brand" href="/"><span class="eshop-brand-highlight">E</span>Shop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="eshop-nav-link nav-link" href="/cart">
+                                <i class="fas fa-shopping-cart"></i> Cart
+                                <span class="eshop-badge badge rounded-pill" id="cartcount">{{cartCount}}</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="eshop-nav-link nav-link" href="/orders">
+                                <i class="fas fa-box"></i> Orders
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="dropdown">
+                        <button class="eshop-user-menu btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-user-circle"></i>
+                            {{#if user}}
+                            {{user.email}}
+                            {{else}}
+                            Account
+                            {{/if}}
+                        </button>
+                        <ul class="eshop-dropdown-menu dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                            {{#if user}}
+                            <li><a class="eshop-dropdown-item dropdown-item" href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                            {{else}}
+                            <li><a class="eshop-dropdown-item dropdown-item" href="/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                            <li><a class="eshop-dropdown-item dropdown-item" href="/admin"><i class="fas fa-user-cog"></i> Admin</a></li>
+                            {{/if}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Your page content goes here -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<style>
+    /* General styles */
+.eshop-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header styles */
+.eshop-header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.eshop-nav {
+    padding: 15px 0;
+}
+
+.eshop-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.eshop-brand-highlight {
+    color: #007bff;
+}
+
+.eshop-nav-link {
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.eshop-nav-link:hover {
+    color: #007bff;
+}
+
+.eshop-nav-link i {
+    margin-right: 5px;
+}
+
+.eshop-badge {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.eshop-user-menu {
+    background-color: #f8f9fa;
+    border: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.eshop-user-menu:hover, .eshop-user-menu:focus {
+    background-color: #e9ecef;
+}
+
+.eshop-dropdown-menu {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.eshop-dropdown-item {
+    padding: 10px 20px;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.eshop-dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+}
+
+.eshop-dropdown-item i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+/* Checkout page styles */
+.eshop-checkout-section .card {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border: none;
+    overflow: hidden;
+}
+
+.eshop-checkout-section .card-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: none;
+    padding: 1.5rem;
+}
+
+.eshop-checkout-section .card-body {
+    padding: 2rem;
+}
+
+.eshop-checkout-section .form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #495057;
+}
+
+.eshop-checkout-section .form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 0.75rem 1rem;
+    transition: all 0.15s ease-in-out;
+}
+
+.eshop-checkout-section .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.eshop-checkout-section .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 25px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.eshop-checkout-section .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .eshop-nav .navbar-nav {
+        margin-top: 15px;
+    }
+
+    .eshop-nav .dropdown {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .eshop-checkout-section .col-md-7, 
+    .eshop-checkout-section .col-md-5 {
+        margin-bottom: 2rem;
+    }
+}
+</style>

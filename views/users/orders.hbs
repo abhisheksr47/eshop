@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>My Orders</title>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .orders-container {
+      max-width: 800px;
+      margin: 2rem auto;
+    }
+
+    .order-card {
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      margin-bottom: 1.5rem;
+      transition: all 0.3s ease;
+    }
+
+    .order-card:hover {
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    .order-header {
+      padding: 1.5rem;
+      border-bottom: 1px solid #e9ecef;
+    }
+
+    .order-body {
+      padding: 1.5rem;
+    }
+
+    .order-status {
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.85rem;
+    }
+
+    .status-pending { background-color: #ffeeba; color: #856404; }
+    .status-processing { background-color: #b8daff; color: #004085; }
+    .status-shipped { background-color: #c3e6cb; color: #155724; }
+    .status-delivered { background-color: #d4edda; color: #155724; }
+
+    .btn-view-details {
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-view-details:hover {
+      background-color: #0056b3;
+      color: #ffffff;
+    }
+
+    .order-details {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .product-info {
+      border-bottom: 1px solid #e9ecef;
+      padding-bottom: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .product-info:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+
+    .delivery-address, .order-summary {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-top: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container orders-container">
+    <h2 class="mb-4"><i class="fas fa-shopping-bag me-2"></i>My Orders</h2>
+    
+    {{#each order}}
+    <div class="order-card">
+      <div class="order-header">
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <h5 class="mb-0"></h5>
+            <small class="text-muted">{{this.orderdate}}</small>
+          </div>
+          <div class="col-md-3">
+            <span class="order-status status-{{this.status}}">{{this.status}}</span>
+          </div>
+          <div class="col-md-3 text-md-end">
+            <h5 class="mb-0">₹{{this.totalPrice}}</h5>
+            <small class="text-muted">{{this.totalQuantity}} items</small>
+          </div>
+          <div class="col-md-3 text-md-end">
+            <button class="btn-view-details" data-bs-toggle="collapse" data-bs-target="#details-{{this._id}}">
+              View Details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="collapse" id="details-{{this._id}}">
+        <div class="order-body">
+          <div class="order-details">
+            {{#each this.products}}
+            <div class="product-info">
+              <div class="row align-items-center">
+                <div class="col-md-2">
+                  <img src="images/product-images/{{this.orderdetail._id}}.jpg" class="img-fluid rounded" alt="{{this.orderdetail.pname}}">
+                </div>
+                <div class="col-md-6">
+                  <h5>{{this.orderdetail.pname}}</h5>
+                  <p class="mb-0"><strong>Brand:</strong> {{this.orderdetail.brand}}</p>
+                  <p class="mb-0"><strong>Quantity:</strong> {{this.quantity}}</p>
+                </div>
+                <div class="col-md-4 text-end">
+                  <p class="mb-0"><strong>Price:</strong> ₹{{this.orderdetail.price}}</p>
+                  <p class="mb-0"><strong>Total:</strong> ₹{{this.total}}</p>
+                </div>
+              </div>
+            </div>
+            {{/each}}
+
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <div class="delivery-address">
+                  <h5><i class="fas fa-map-marker-alt me-2"></i>Delivery Address</h5>
+                  <p class="mb-1">{{this.address.firstName}} {{this.address.lastName}}</p>
+                  <p class="mb-1">{{this.address.houseName}}</p>
+                  <p class="mb-1">{{this.address.city}} - {{this.address.pincode}}</p>
+                  <p class="mb-1"><i class="fas fa-phone me-2"></i>{{this.address.phone}}</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="order-summary">
+                  <h5><i class="fas fa-receipt me-2"></i>Order Summary</h5>
+                  <p class="d-flex justify-content-between mb-1">
+                    <span>Subtotal:</span>
+                    <strong>₹{{this.totalPrice}}</strong>
+                  </p>
+                  <p class="d-flex justify-content-between mb-1">
+                    <span>Discount:</span>
+                    <strong>₹0</strong>
+                  </p>
+                  <p class="d-flex justify-content-between mb-1">
+                    <span>GST (0%):</span>
+                    <strong>₹0</strong>
+                  </p>
+                  <p class="d-flex justify-content-between mb-1">
+                    <span>Delivery Charges:</span>
+                    <strong>Free</strong>
+                  </p>
+                  <hr>
+                  <p class="d-flex justify-content-between mb-0">
+                    <span>Total Paid:</span>
+                    <strong>₹{{this.totalPrice}}</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+
+  <script>
+    // No additional JavaScript needed as we're using Bootstrap's built-in collapse functionality
+  </script>
+</body>
+
+</html>

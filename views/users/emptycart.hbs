@@ -1,0 +1,130 @@
+<section class="cart-section">
+  <div class="container">
+    <h1 class="cart-title">Your Cart</h1>
+
+    <div class="cart-table">
+      <div class="cart-header">
+        <div class="cart-row">
+          <div class="cart-cell">Item</div>
+          <div class="cart-cell"></div>
+          <div class="cart-cell">Price</div>
+          <div class="cart-cell">Quantity</div>
+          <div class="cart-cell">Sub Total</div>
+          <div class="cart-cell"></div>
+        </div>
+      </div>
+      <div class="cart-body">
+        <div class="cart-row empty-cart-row">
+          <div class="cart-cell" colspan="6">Your Cart is Empty</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart-actions">
+      <a href='/' class="btn btn-secondary">Back To Shopping</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .cart-section {
+    padding: 3rem 0;
+    background-color: #f8f9fa;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .cart-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .cart-table {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+
+  .cart-row {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .cart-cell {
+    flex: 1;
+    padding: 0.5rem;
+  }
+
+  .cart-header {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #495057;
+  }
+
+  .empty-cart-row {
+    justify-content: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+
+  .cart-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+
+  @media (max-width: 768px) {
+    .cart-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .cart-cell {
+      width: 100%;
+      padding: 0.5rem 0;
+    }
+
+    .empty-cart-row {
+      text-align: center;
+    }
+
+    .cart-actions {
+      flex-direction: column;
+    }
+
+    .btn {
+      width: 100%;
+    }
+  }
+</style>
