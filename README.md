@@ -33,5 +33,5 @@ Welcome to eShop, an advanced e-commerce platform built using the MERN stack (Mo
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/eshop.git
+   git clone https://github.com/yourusername/eshop.git](https://github.com/abhishek123-asr/eshop.git
    cd eshop
