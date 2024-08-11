@@ -9,6 +9,7 @@ var db=require('./config/connection')
 var session=require('express-session')
 
 console.log("Feature")
+console.log("other")
 
 
 
