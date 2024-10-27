@@ -36,9 +36,9 @@ To set up the project locally, follow these steps:
    git clone https://github.com/abhishek123-asr/eshop.git
    cd eshop
 
-2. **Install dependencies:
+2. **Install dependencies**:
    ```bash
    npm install
-3. Start the server:
+3. **Start the server**:
    ```bash
    npm start
