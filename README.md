@@ -12,7 +12,6 @@ Welcome to eShop, an advanced e-commerce platform built using the MERN stack (Mo
 - **Responsive Design**: Mobile-first approach with responsive layout.
 - **Product Search & Filtering**: Dynamic search and category filtering.
 
-
 ## Technologies Used
 
 ### Frontend
@@ -28,10 +27,18 @@ Welcome to eShop, an advanced e-commerce platform built using the MERN stack (Mo
 - **Express.js**: Fast, unopinionated, minimalist web framework for Node.js.
 - **MongoDB**: NoSQL database for storing product, user, and order data.
 
-
 ## Installation
+
+To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/eshop.git](https://github.com/abhishek123-asr/eshop.git
+   git clone https://github.com/abhishek123-asr/eshop.git
    cd eshop
+
+2. **Install dependencies:
+   ```bash
+   npm install
+3. Start the server:
+   ```bash
+   npm start
