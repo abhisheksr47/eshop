@@ -12,6 +12,32 @@ Welcome to eShop, an advanced e-commerce platform built using the MERN stack (Mo
 - **Responsive Design**: Mobile-first approach with responsive layout.
 - **Product Search & Filtering**: Dynamic search and category filtering.
 
+### Home Page
+![Home Page](images/1.png)
+
+### Item Menu
+![Item Menu](images/2.png)
+
+### Login
+![Login](images/3.png)
+
+### Cart
+![Cart](images/4.png)
+
+### Orders
+![Orders](images/5.png)
+
+### Summary and Shipping Details
+![Summary](images/6.png)
+
+### Payment Gateway
+![Payment Gateway](images/7.png)
+
+### Succesfull Order
+![Succesfull Order](images/8.png)
+
+
+
 ## Technologies Used
 
 ### Frontend
