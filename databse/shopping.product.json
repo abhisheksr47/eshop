@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "667c31ea650f70ea3b90bb25"
+  },
+  "pname": "Pixel 8 Pro",
+  "price": "8699",
+  "brand": "Google"
+},
+{
+  "_id": {
+    "$oid": "667c53c3497b94e8cfc41fda"
+  },
+  "pname": "Iphone 15",
+  "price": "85400",
+  "brand": "Apple"
+},
+{
+  "_id": {
+    "$oid": "668594b38aedf6d6f17d12e9"
+  },
+  "pname": "Mi 11 Ultra",
+  "price": "85000",
+  "brand": "Xiomi"
+},
+{
+  "_id": {
+    "$oid": "6685950c8aedf6d6f17d12ea"
+  },
+  "pname": "OnePlus 12",
+  "price": "56000",
+  "brand": "OnePlus"
+},
+{
+  "_id": {
+    "$oid": "668595458aedf6d6f17d12eb"
+  },
+  "pname": "Vivo X100 Pro",
+  "price": "74500",
+  "brand": "Vivo"
+},
+{
+  "_id": {
+    "$oid": "6685959e8aedf6d6f17d12ec"
+  },
+  "pname": "OPPO Find X7 Ultra",
+  "price": "3741",
+  "brand": "OPPO"
+},
+{
+  "_id": {
+    "$oid": "668597cda33494d26cc2725b"
+  },
+  "pname": "Poco X6 Pro",
+  "price": "26900",
+  "brand": "Poco"
+},
+{
+  "_id": {
+    "$oid": "66859856a33494d26cc2725c"
+  },
+  "pname": "Realme 12 Pro plus",
+  "price": "42000",
+  "brand": "Realme"
+},
+{
+  "_id": {
+    "$oid": "668598afa33494d26cc2725d"
+  },
+  "pname": "Motorola Edge Plus",
+  "price": "54000",
+  "brand": "Motorola"
+}]
