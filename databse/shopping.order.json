@@ -1,0 +1,1572 @@
+[{
+  "_id": {
+    "$oid": "6697d24ebb04d33cb992e12e"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667ba8e65baddac79f21d0c9",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "9499",
+        "brand": "Samsung"
+      },
+      "total": "9499"
+    }
+  ],
+  "totalamount": "9499",
+  "orderdate": {
+    "$date": "2024-07-17T14:16:46.882Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6697e556c0b244febc07538c"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "6697ddbdf86c000fa73a848c",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": 8699
+    },
+    {
+      "_id": "6697ddbdf86c000fa73a848c",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "9499",
+        "brand": "Samsung"
+      },
+      "total": 9499
+    },
+    {
+      "_id": "6697ddbdf86c000fa73a848c",
+      "item": "6685959e8aedf6d6f17d12ec",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "6685959e8aedf6d6f17d12ec",
+        "pname": "OPPO Find X7 Ultra",
+        "price": "3741",
+        "brand": "OPPO"
+      },
+      "total": 3741
+    }
+  ],
+  "totalamount": "21939",
+  "orderdate": {
+    "$date": "2024-07-17T15:37:58.578Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6697e59cc0b244febc07538f"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "6697e593c0b244febc07538e",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "9499",
+        "brand": "Samsung"
+      },
+      "total": 9499
+    },
+    {
+      "_id": "6697e593c0b244febc07538e",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": 8699
+    },
+    {
+      "_id": "6697e593c0b244febc07538e",
+      "item": "6685959e8aedf6d6f17d12ec",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "6685959e8aedf6d6f17d12ec",
+        "pname": "OPPO Find X7 Ultra",
+        "price": "3741",
+        "brand": "OPPO"
+      },
+      "total": 3741
+    }
+  ],
+  "totalamount": "21939",
+  "orderdate": {
+    "$date": "2024-07-17T15:39:08.934Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6697e5bbc0b244febc075392"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "6697e5b0c0b244febc075391",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "9499",
+        "brand": "Samsung"
+      },
+      "total": 9499
+    },
+    {
+      "_id": "6697e5b0c0b244febc075391",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": 8699
+    },
+    {
+      "_id": "6697e5b0c0b244febc075391",
+      "item": "6685959e8aedf6d6f17d12ec",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "6685959e8aedf6d6f17d12ec",
+        "pname": "OPPO Find X7 Ultra",
+        "price": "3741",
+        "brand": "OPPO"
+      },
+      "total": 3741
+    }
+  ],
+  "totalamount": "21939",
+  "orderdate": {
+    "$date": "2024-07-17T15:39:39.078Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6697e70dc0b244febc075394"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-07-17T15:45:17.271Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669a1113773c726b7d28be30"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "66993b760451b81619f01f18",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 2,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "9499",
+        "brand": "Samsung"
+      },
+      "total": 18998
+    }
+  ],
+  "totalamount": "18998",
+  "orderdate": {
+    "$date": "2024-07-19T07:09:07.553Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669a11da773c726b7d28be34"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "669a11cd773c726b7d28be33",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": 8699
+    },
+    {
+      "_id": "669a11cd773c726b7d28be33",
+      "item": "668594b38aedf6d6f17d12e9",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "668594b38aedf6d6f17d12e9",
+        "pname": "Mi 11 Ultra",
+        "price": "85000",
+        "brand": "Xiomi"
+      },
+      "total": 85000
+    }
+  ],
+  "totalamount": "93699",
+  "orderdate": {
+    "$date": "2024-07-19T07:12:26.451Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669dbab9e5708163ce93190e"
+  },
+  "address": {
+    "firstName": "bhb",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "667ba8e65baddac79f21d0c9",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "9499",
+        "brand": "Samsung"
+      },
+      "total": "9499"
+    }
+  ],
+  "totalamount": "9499",
+  "orderdate": {
+    "$date": "2024-07-22T01:49:45.723Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669dbb1ee5708163ce93190f"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Pending",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "667ba8e65baddac79f21d0c9",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "9499",
+        "brand": "Samsung"
+      },
+      "total": "9499"
+    }
+  ],
+  "totalamount": "9499",
+  "orderdate": {
+    "$date": "2024-07-22T01:51:26.113Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669dbb21e5708163ce931910"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "667ba8e65baddac79f21d0c9",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "9499",
+        "brand": "Samsung"
+      },
+      "total": "9499"
+    }
+  ],
+  "totalamount": "9499",
+  "orderdate": {
+    "$date": "2024-07-22T01:51:29.091Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669e8acfe9312847560af3f5"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Pending",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "667c53c3497b94e8cfc41fda",
+      "item": "667c53c3497b94e8cfc41fda",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c53c3497b94e8cfc41fda",
+        "pname": "Iphone 15",
+        "price": "85400",
+        "brand": "Apple"
+      },
+      "total": "85400"
+    }
+  ],
+  "totalamount": "85400",
+  "orderdate": {
+    "$date": "2024-07-22T16:37:35.092Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669e8ad1e9312847560af3f6"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Pending",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "667c53c3497b94e8cfc41fda",
+      "item": "667c53c3497b94e8cfc41fda",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c53c3497b94e8cfc41fda",
+        "pname": "Iphone 15",
+        "price": "85400",
+        "brand": "Apple"
+      },
+      "total": "85400"
+    }
+  ],
+  "totalamount": "85400",
+  "orderdate": {
+    "$date": "2024-07-22T16:37:37.656Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669e8af7e9312847560af3f9"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "669dbb6de5708163ce931913",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": 8699
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-07-22T16:38:15.958Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669e8bdce9312847560af3fd"
+  },
+  "address": {
+    "firstName": "Kozhikode",
+    "lastName": null,
+    "houseName": "Ganapathikandi, Ayancheri",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "669e8bc4e9312847560af3fc",
+      "item": "669e8b9ce9312847560af3fb",
+      "quantity": 16,
+      "CartItems": {
+        "_id": "669e8b9ce9312847560af3fb",
+        "pname": "Fuhad",
+        "price": "510",
+        "brand": "FSK"
+      },
+      "total": 8160
+    }
+  ],
+  "totalamount": "8160",
+  "orderdate": {
+    "$date": "2024-07-22T16:42:04.247Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669e980f3a0d47b61cc5f175"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "667ba8e65baddac79f21d0c9",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "10000",
+        "brand": "Samsung"
+      },
+      "total": "10000"
+    }
+  ],
+  "totalamount": "10000",
+  "orderdate": {
+    "$date": "2024-07-22T17:34:07.457Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a14bc08a1d24ea50f85d38"
+  },
+  "address": {
+    "firstName": "Kozhikode, Kerala, India",
+    "lastName": null,
+    "houseName": "Ganapathikandi",
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Pending",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "66a1393a1b401a660cadfcca",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 5,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "10000",
+        "brand": "Samsung"
+      },
+      "total": 50000
+    },
+    {
+      "_id": "66a1393a1b401a660cadfcca",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 2,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": 17398
+    }
+  ],
+  "totalamount": "67398",
+  "orderdate": {
+    "$date": "2024-07-24T18:45:20.148Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a6019dadb698062678ae99"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-07-28T08:30:21.445Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a601abadb698062678ae9a"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-07-28T08:30:35.652Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a60201adb698062678ae9b"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-07-28T08:32:01.961Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a60224adb698062678ae9c"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667ba8e65baddac79f21d0c9",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "10000",
+        "brand": "Samsung"
+      },
+      "total": "10000"
+    }
+  ],
+  "totalamount": "10000",
+  "orderdate": {
+    "$date": "2024-07-28T08:32:36.127Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a606fea1d660a4966f534d"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-07-28T08:53:18.013Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a60700a1d660a4966f534e"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-07-28T08:53:20.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a6075da1d660a4966f534f"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667ba8e65baddac79f21d0c9",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "10000",
+        "brand": "Samsung"
+      },
+      "total": "10000"
+    }
+  ],
+  "totalamount": "10000",
+  "orderdate": {
+    "$date": "2024-07-28T08:54:53.668Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a60876a1d660a4966f5350"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-07-28T08:59:34.280Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a60c44a1d660a4966f5351"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "66a150c88a1d24ea50f85d3a",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 2,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": 17398
+    }
+  ],
+  "totalamount": "17398",
+  "orderdate": {
+    "$date": "2024-07-28T09:15:48.398Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a61790a1d660a4966f5352"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667ba8e65baddac79f21d0c9",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "10000",
+        "brand": "Samsung"
+      },
+      "total": "10000"
+    }
+  ],
+  "totalamount": "10000",
+  "orderdate": {
+    "$date": "2024-07-28T10:04:00.945Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a8ac039a9033f39c3c7643"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667ba8e65baddac79f21d0c9",
+      "item": "667ba8e65baddac79f21d0c9",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667ba8e65baddac79f21d0c9",
+        "pname": "Galaxy S23",
+        "price": "10000",
+        "brand": "Samsung"
+      },
+      "total": "10000"
+    }
+  ],
+  "totalamount": "10000",
+  "orderdate": {
+    "$date": "2024-07-30T09:01:55.521Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66f31ca59536eb8b324f615a"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "667c53c3497b94e8cfc41fda",
+      "item": "667c53c3497b94e8cfc41fda",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c53c3497b94e8cfc41fda",
+        "pname": "Iphone 15",
+        "price": "85400",
+        "brand": "Apple"
+      },
+      "total": "85400"
+    }
+  ],
+  "totalamount": "85400",
+  "orderdate": {
+    "$date": "2024-09-24T20:10:13.882Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66f31ccc9536eb8b324f615b"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Pending",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "668598afa33494d26cc2725d",
+      "item": "668598afa33494d26cc2725d",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "668598afa33494d26cc2725d",
+        "pname": "Motorola Edge Plus",
+        "price": "54000",
+        "brand": "Motorola"
+      },
+      "total": "54000"
+    }
+  ],
+  "totalamount": "54000",
+  "orderdate": {
+    "$date": "2024-09-24T20:10:52.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66f31d0b9536eb8b324f615d"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-09-24T20:11:55.947Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66f833b4bf2b979600f6bf8b"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-09-28T16:49:56.972Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66f833d6bf2b979600f6bf8c"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "669e984c3a0d47b61cc5f177",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": 8699
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-09-28T16:50:30.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fb77886daed2bfea794ae5"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-10-01T04:16:08.483Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fb77996daed2bfea794ae6"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Pending",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-10-01T04:16:25.931Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fb780b6daed2bfea794ae9"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Pending",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-10-01T04:18:19.477Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fb78736daed2bfea794aeb"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "669a11c7773c726b7d28be32"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-10-01T04:20:03.359Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670eb8c2ab57fa62fc0c6d3a"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Karikode",
+    "pincode": "691001",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-10-15T18:47:30.918Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "676848112036216ccf3bedc9"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Pending",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "66a617bca1d660a4966f5353",
+      "item": "667c53c3497b94e8cfc41fda",
+      "quantity": 11,
+      "CartItems": {
+        "_id": "667c53c3497b94e8cfc41fda",
+        "pname": "Iphone 15",
+        "price": "85400",
+        "brand": "Apple"
+      },
+      "total": 939400
+    }
+  ],
+  "totalamount": "939400",
+  "orderdate": {
+    "$date": "2024-12-22T17:10:41.206Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "676848182036216ccf3bedca"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Pending",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "66a617bca1d660a4966f5353",
+      "item": "667c53c3497b94e8cfc41fda",
+      "quantity": 11,
+      "CartItems": {
+        "_id": "667c53c3497b94e8cfc41fda",
+        "pname": "Iphone 15",
+        "price": "85400",
+        "brand": "Apple"
+      },
+      "total": 939400
+    }
+  ],
+  "totalamount": "939400",
+  "orderdate": {
+    "$date": "2024-12-22T17:10:48.609Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "676848322036216ccf3bedcc"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Pending",
+  "paymentMethod": "Online",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "6768482b2036216ccf3bedcb",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": 8699
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-12-22T17:11:14.033Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6768485a2036216ccf3bedcf"
+  },
+  "address": {
+    "firstName": null,
+    "lastName": null,
+    "houseName": null,
+    "city": "Kozhikode, Kerala, India",
+    "pincode": "673541",
+    "phone": "07034434303"
+  },
+  "status": "Placed",
+  "paymentMethod": "Cash On Delivery",
+  "user": {
+    "$oid": "667ac784ad4a45740690fb1d"
+  },
+  "products": [
+    {
+      "_id": "667c31ea650f70ea3b90bb25",
+      "item": "667c31ea650f70ea3b90bb25",
+      "quantity": 1,
+      "CartItems": {
+        "_id": "667c31ea650f70ea3b90bb25",
+        "pname": "Pixel 8 Pro",
+        "price": "8699",
+        "brand": "Google"
+      },
+      "total": "8699"
+    }
+  ],
+  "totalamount": "8699",
+  "orderdate": {
+    "$date": "2024-12-22T17:11:54.689Z"
+  }
+}]
